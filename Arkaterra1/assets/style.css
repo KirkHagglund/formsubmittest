@@ -1,0 +1,103 @@
+:root {
+    --logogreen: #4b6f31;
+    --logobrown: #6b3f13;
+    --orangebanner: #ff914d;
+    --background: #346948;
+    --darkbrown: #52300f;
+    --lightbrown: #6c3f15;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 3rem;
+    font-style: italic;
+}
+
+p#mission-text {
+    font-size: 1.25rem;
+}
+
+.slider video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#navigation {
+    box-shadow: 0px 3px 3px grey;
+    position: auto;
+    width: 100%;
+    z-index: 21;
+}
+
+#nav-content {
+    padding-right: 2rem;
+}
+
+#nav-home,
+#nav-about,
+#nav-service,
+#nav-contact {
+    padding-right: 40px;
+    font-size: larger;
+}
+
+#comp-img,
+#mon-img,
+#con-img {
+    width: 100%;
+}
+
+#contact-container {
+    border: 3px solid var(--background);
+    border-radius: 10px;
+    width: 50%;
+}
+
+#submitButton {
+    margin: auto;
+}
+
+#submitButton:active {
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    border: none;
+}
+
+footer {
+    margin-bottom: 0;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+footer p {
+    background-color: var(--background);
+    border-radius: 70px;
+    padding: 1.5rem;
+    margin: 2rem;
+    color: #ffffff;
+    font-size: 1.25rem;
+}
